@@ -1,4 +1,5 @@
 import * as React from "react"
+import Navbar from './componenet/Navbar '
 
 const pageStyles = {
   color: "#232129",
@@ -127,7 +128,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations Dani 
+        Congratulations Dani <Navbar/>
         <br />
         <span style={headingAccentStyles}>— you just made a first Gatsby site! Dani Boy  🎉🎉🎉</span>
       </h1>
